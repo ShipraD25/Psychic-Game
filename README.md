@@ -36,3 +36,4 @@ Pseudocode put throughout to understand the functionality of code.
 
 ## Adding Game Preview
 
+![image](https://user-images.githubusercontent.com/54960706/66702831-bb31f480-ecc0-11e9-9828-9bfd87fb5a3a.png)
