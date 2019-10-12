@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+body {
+    background-color: aqua;
+}
