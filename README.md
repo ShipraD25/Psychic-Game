@@ -35,3 +35,5 @@ Pseudocode put throughout to understand the functionality of code.
 
 
 ## Adding Game Preview
+file:///C:/Users/drshi/Desktop/Psychic-Game/index.html
+
