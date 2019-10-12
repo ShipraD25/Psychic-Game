@@ -16,7 +16,19 @@ Pseudocode put throughout to understand the functionality of code.
 
 ## javascript code snippet
 
-
+document.onkeyup = function(event) {
+    let userGuess = event.key.toLowerCase();
+    console.log("userGuess=", userGuess);
+    guestChoice.push(userGuess);
+    outputUserChoice.innerHTML = "User guesses so far: " + guestChoice.join(",");
+    guessesLeft--;
+    outputguessLeft.innerHTML = "guesses left :" + guessesLeft;
+ if (userGuess === computerGuess) {
+        Wins++;
+        reset();
+    } else if (guessesLeft === 0) {
+        Losses++;
+        reset();
 
 
 
