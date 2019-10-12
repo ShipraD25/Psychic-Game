@@ -15,9 +15,25 @@ Pseudocode put throughout to understand the functionality of code.
 * Bootstrap
 
 ## javascript code snippet
+```javascript
+  document.onkeyup = function(event) {
+       let userGuess = event.key.toLowerCase();
+        console.log("userGuess=", userGuess);
+         guestChoice.push(userGuess);
+          outputUserChoice.innerHTML = "User guesses so far: " + guestChoice.join(",");
+       guessesLeft--;
+    outputguessLeft.innerHTML = "guesses left :" + guessesLeft;
+ if (userGuess === computerGuess) {
+        Wins++;
+        reset();
+      } else if (guessesLeft === 0) {
+        Losses++;
+        reset();
+       }
+}
+```
 
 
+## Game Preview
 
-
-
-## Adding Game Preview
+![image](https://user-images.githubusercontent.com/54960706/66702831-bb31f480-ecc0-11e9-9828-9bfd87fb5a3a.png)
