@@ -9,13 +9,9 @@
     margin-left: 20%;
 }
 
-
-/*.container {
-    text-align: center;
-}*/
-
 body {
     background-image: url(assets/images/background.png);
+    background-color: cadetblue;
 }
 
 h1 {
