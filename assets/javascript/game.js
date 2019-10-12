@@ -38,7 +38,7 @@ document.onkeyup = function(event) {
     outputUserChoice.innerHTML = "User guesses so far: " + guestChoice.join(",");
     guessesLeft--;
     outputguessLeft.innerHTML = "guesses left :" + guessesLeft;
-    //if input matches computer guess then wins increases and game resets automatically
+    //if input matches computer guess then wins go up and game resets automatically
     //if input don't match the computer guess and the guesses left are 0 then losses go up and game resets.
 
     if (userGuess === computerGuess) {
