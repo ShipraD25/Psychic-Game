@@ -1,4 +1,4 @@
-# Psychic Game
+# Psychic-Game
 
 ## Summary
 
