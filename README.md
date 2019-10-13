@@ -12,7 +12,7 @@ Pseudocode put throughout to understand the functionality of code.
 * HTML
 * Javascript
 * Css 
-* Bootstrap
+
 
 ## javascript code snippet
 ```javascript
