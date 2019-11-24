@@ -1,5 +1,7 @@
 # Psychic-Game
 
+### game link https://shiprad25.github.io/Psychic-Game/
+
 ## Summary
 
 
